@@ -2,8 +2,6 @@ import re
 
 def main():
     infile = open("input.txt", "r")
-    num_lst = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
-                '1', '2', '3', '4', '5', '6', '7', '8', '9']
     
     word_to_num = {
         'one': '1', 
@@ -16,6 +14,8 @@ def main():
         'eight': '8', 
         'nine': '9',
     }
+    
+    num_lst = list(word_to_num.keys()) + list(word_to_num.values())
 
     sum = 0
 
