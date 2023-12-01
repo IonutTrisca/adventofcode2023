@@ -23,6 +23,8 @@ def main():
 
         sum += current_number
     
+    infile.close()
+    
     print(sum)
 
 if __name__ == "__main__":
