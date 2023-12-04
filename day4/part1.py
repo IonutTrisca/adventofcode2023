@@ -4,11 +4,8 @@ def main():
     with open("input.txt", "r") as in_file:
         for line in in_file:
             number_sets = line.split(":")[1].split("|")
-            winning_numbers = number_sets[0].strip().split(" ")
-            owned_numbers = number_sets[1].strip().split(" ")
-
-            winning_numbers = [i for i in winning_numbers if i != ""]
-            owned_numbers = [i for i in owned_numbers if i != ""]
+            winning_numbers = number_sets[0].strip().split()
+            owned_numbers = number_sets[1].strip().split()
             
             winning_numbers_owned = 0
 
