@@ -36,8 +36,6 @@ def main():
 
         print(ids_sum)
 
-                    
-
 
 if __name__ == "__main__":
     main()

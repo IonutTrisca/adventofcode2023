@@ -39,8 +39,5 @@ def main():
     print(cubes_sum)
 
 
-                    
-
-
 if __name__ == "__main__":
     main()
