@@ -68,7 +68,6 @@ def main():
                 crt_numbers.append((number.group(), number.start(), number.end()))
             
             for gear in re.compile(r'\*').finditer(crt_line):
-                adjacent_numbers = list()
                 gear_idx = gear.start()
                 indices = build_indices_matrix(1, gear_idx, line_length)
                 gear_numbers = list()
