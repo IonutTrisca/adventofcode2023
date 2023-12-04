@@ -74,7 +74,7 @@ def main():
                     final_sum += int(number.group())
     
     print(final_sum)
-                    
+
 
 if __name__ == "__main__":
     main()
